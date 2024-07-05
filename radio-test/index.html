@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Radio test</title>
+		<meta charset="UTF-8" />
+<style>
+
+label {
+	padding: 0.5em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	transform: scale(2, 2);
+	margin: 0rem 0.2rem;
+}
+
+</style>
+	</head>
+
+	<body>
+		<h1>Teste</h1>
+
+		<form action="test.php" method="POST" id="radio-test">
+
+			<input type="radio" id="radio-small" value="Pequeno" name="radio-size">
+			<label for="radio-small">Pequeno</label>
+			<input type="radio" id="radio-medium" value="Médio" name="radio-size">
+			<label for="radio-medium">Médio</label>
+			<input type="radio" id="radio-big" value="Grande" name="radio-size">
+			<label for="radio-big">Grande</label>
+
+			<button>Enviar</button>
+
+		</form>
+
+		<script>
+
+//			document.getElementById("radio-test").addEventListener("submit", showRadio, false);
+//
+//			function showRadio(e) {
+//				const radioTest = document.getElementById("radio-test");
+//				const selectedRadio = radioTest.querySelector("input[type=\"radio\"]:checked");
+//
+//				console.log(selectedRadio.value);
+//
+//				e.preventDefault();
+//			}
+
+		</script>
+	</body>
+
+</html>
